@@ -2,11 +2,6 @@
 // import { useState, useEffect } from 'react';
 // import { useCreateChatClient, Chat, Channel, ChannelHeader, MessageInput, MessageList, Thread, Window } from 'stream-chat-react';
 // import { useUser } from '@clerk/nextjs';
-// import 'stream-chat-react/dist/css/v2/index.css';
-
-// const apiKey = '2wcq8ub7c47j';
-// const userToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidXNlcl8ydzBNNm85cFdsU0k0N2NYZldPVUlBeFAzZUkifQ.9e8ZrH6NW9w-rCxix4vmxJdoTbpGuQ-k1jcIW2u55SM';
-
 // const CharForum = (clerkUser,slug) => {
 //   const ClerkUser=useUser()
   
@@ -67,7 +62,7 @@ import { useCreateChatClient, Chat, Channel, ChannelHeader, MessageInput, Messag
 import 'stream-chat-react/dist/css/v2/index.css';
 
 const ChatForum=({clerkUser,slug})=>{
-  const apiKey='2wcq8ub7c47j';
+  const apiKey='';
   const userId=clerkUser.id;
   const userName=clerkUser.name;
   const userToken=clerkUser.token;
